@@ -1,0 +1,26 @@
+{
+  "name": "sails-hook-resque",
+  "version": "1.0.0",
+  "description": "Resque support for sails.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/konstantinzolotarev/sails-hook-resque.git"
+  },
+  "keywords": [
+    "sails",
+    "sails.js",
+    "resque",
+    "tasks",
+    "background-tasks"
+  ],
+  "author": "Konstantin Zolotarev <konstantin.zolotarev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/konstantinzolotarev/sails-hook-resque/issues"
+  },
+  "homepage": "https://github.com/konstantinzolotarev/sails-hook-resque"
+}
