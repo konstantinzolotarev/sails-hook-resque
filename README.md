@@ -21,9 +21,6 @@ module.exports = {
     },
     perform: function(a, b, callback){
       setTimeout(function(){
-        jobsToComplete--;
-        shutdown();
-
         var answer = a + b;
         callback(null, answer);
       }, 1000);
