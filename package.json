@@ -3,6 +3,9 @@
   "version": "1.1.0",
   "description": "Resque support for sails.js",
   "main": "index.js",
+  "sails": {
+    "isHook": true
+  },
   "scripts": {
     "test": "NODE_ENV=test node ./node_modules/mocha/bin/mocha"
   },
