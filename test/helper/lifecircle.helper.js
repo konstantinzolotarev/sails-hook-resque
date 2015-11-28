@@ -41,10 +41,12 @@ module.exports = {
       config = {};
     }
     // New up an instance of Sails and lift it.
-    var app = Sails();
+    var app = Sails(); //jshint ignore:line
 
     app.lift(_.defaults(defaultConfig, config), function (err) {
-      if (err) return done(err);
+      if (err) {
+        return done(err);
+      }
 
       // Set global sails instance
       global.sails = app;
