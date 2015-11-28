@@ -1,4 +1,5 @@
 # sails-hook-resque
+[![Build Status](https://travis-ci.org/konstantinzolotarev/sails-hook-resque.svg)](https://travis-ci.org/konstantinzolotarev/sails-hook-resque)
 Delayed tasks in Sails.js app. Using node-resque
 
 ## Configuration
