@@ -32,4 +32,15 @@ describe('Basic :: ', function() {
       .and.to.be.a('function');
   });
 
+  it('resque worker should be created', function () {
+    expect(sails.resque.worker).to.be.an('object')
+      .and.have.property('on')
+      .and.to.be.a('function');
+  });
+
+  it('resque scheduler should be created', function () {
+    expect(sails.resque.scheduler).to.be.an('object')
+      .and.have.property('on')
+      .and.to.be.a('function');
+  });
 });

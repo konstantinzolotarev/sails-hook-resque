@@ -18,7 +18,11 @@ var defaultConfig = {
     // Inject the sockets hook in this repo into this Sails app
     resque: require('../..')
   },
-  loadHooks: ['moduleloader', 'userconfig', 'http', 'resque']
+  loadHooks: ['moduleloader', 'userconfig', 'http', 'resque'],
+  resque: {
+    jobsPath: 'test/jobs',
+    queues: ['math']
+  }
 };
 
 module.exports = {

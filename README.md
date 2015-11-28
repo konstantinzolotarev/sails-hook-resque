@@ -2,7 +2,7 @@
 Delayed tasks in Sails.js app. Using node-resque
 
 ## Configuration
-TBD
+All configuration options are available in [lib/defaults.js](lib/defaults.js)
 
 ## Queue usage
 Hook setup queue service in your Sails.js application
