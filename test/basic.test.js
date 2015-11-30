@@ -1,13 +1,9 @@
 'use strict';
 
-var lc = require('./helper/lifecircle.helper');
 var expect = require('chai').expect;
 
 /* jshint maxlen: false */
 describe('Basic :: ', function() {
-
-  before(lc.setup);
-  after(lc.teardown);
 
   it('Sails.js should run', function() {
     expect(sails).to.be.ok;
