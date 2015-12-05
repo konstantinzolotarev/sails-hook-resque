@@ -12,9 +12,8 @@ describe('Queue - enqueueIn :: ', function () {
   });
 
   it('should enqueue a task', function (done) {
-    sails.resque.queue.enqueueIn(500, 'math', 'add', [1, 2], function (err, enqueued) {
+    sails.resque.queue.enqueueIn(500, 'math', 'add', [1, 2], function (err) {
       expect(err).to.not.exist;
-      expect(enqueued).to.be.true;
 
       sails.resque.queue.length('math', function (err, value) {
         expect(err).to.not.exist;
